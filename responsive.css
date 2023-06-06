@@ -1,0 +1,182 @@
+/* @media screen and (max-width: 550px) {
+
+    .logo-container img {
+        width: 80px;
+        height: 45px;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .text {
+        font-size: 0.7rem;
+        font-weight: 600;
+        margin-left: 0px;
+        color: white;
+    }
+
+    .searchbox_container {
+        width: 70%;
+        margin-left: 60px;
+    }
+
+    .header {
+        height: 7vh;
+    }
+
+    .searchbox {
+        width: 60%;
+        margin-right: 15px;
+
+        height: 25px;
+    }
+
+    .searchbox_container input {
+        font-size: 0.8rem;
+        padding: 0.6rem;
+        padding-left: 10px;
+
+        width: 80%;
+        height: 0.3rem;
+    }
+
+    .profile-photo {
+        width: 34px;
+        height: 34px;
+        border-radius: 100%;
+        margin-left: 16px;
+    }
+
+    .bell {
+        margin: 0px;
+        height: 15px !important;
+    }
+
+    .col {
+        height: 12px;
+    }
+} */
+
+@media screen and (max-width: 768px){
+
+.all_parent{
+    width: 100%;
+}
+.main{
+    width: 70%;
+    
+    padding: 1%;
+    
+
+}
+.queue_container{
+    width: 30%;
+    margin: 0%;
+   
+}
+body{
+    margin: 0%;
+}
+.footer_parent{
+    width: 100%;
+}
+.child1{
+    width: 23%;
+}
+.child2{
+    width: 35%;
+}
+.child3{
+    width: 30%;
+}
+.justin{
+    margin-top: 5%;
+}
+.fasss{
+    font-size: medium;
+}
+
+.seaven{
+    width: 65%;
+}
+.child2_logo_1{
+    width: 45%;
+}
+.eight p{
+    margin-left: -40%;
+}
+.sixth p{
+    margin-left: 40%;
+}
+.latest_english_child_para{
+    font-size: 12px;
+}
+
+.latest-relese-para{
+    font-size: 1.1rem;
+}
+.latest_english_1para {
+    font-size: 16px;
+}
+.music_mood_child{
+    height: 10rem;
+}
+
+}
+
+@media screen and (max-width: 480px) {
+
+    .logo-container img {
+        width: 80px;
+        height: 45px;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .text {
+        font-size: 0.7rem;
+        font-weight: 600;
+        margin-left: 0px;
+        color: white;
+    }
+
+    .searchbox_container {
+        width: 70%;
+        margin-left: 60px;
+    }
+
+    .header {
+        height: 7vh;
+    }
+
+    .searchbox {
+        width: 60%;
+        margin-right: 15px;
+
+        height: 25px;
+    }
+
+    .searchbox_container input {
+        font-size: 0.8rem;
+        padding: 0.6rem;
+        padding-left: 10px;
+
+        width: 80%;
+        height: 0.3rem;
+    }
+
+    .profile-photo {
+        width: 34px;
+        height: 34px;
+        border-radius: 100%;
+        margin-left: 16px;
+    }
+
+    .bell {
+        margin: 0px;
+        height: 15px !important;
+    }
+
+    .col {
+        height: 12px;
+    }
+}

@@ -1,0 +1,769 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+.main-container {
+    height: auto;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    padding: 1.5rem;
+    background-color: #0C1126;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: flex-start;
+    width: 18%;
+    align-items: center;
+}
+
+.logo-container img {
+    width: auto;
+    height: 61px;
+    margin-right: 0.8rem;
+    max-height: 6rem;
+    max-width: 18rem;
+
+
+}
+
+.text {
+
+
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-left: 30px;
+    color: white;
+
+}
+
+.searchbox_container {
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 55%;
+
+}
+
+.searchbox {
+    padding: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    background-color: #12183F;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    margin-right: 4rem;
+}
+
+.searchbox_container input {
+    font-size: 1.1rem;
+    padding: 0.6rem;
+    padding-left: 0.1rem;
+    background-color: transparent;
+    width: 80%;
+    height: 0.7rem;
+    border: 0;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+    color: white;
+    outline: none;
+}
+
+.col {
+    color: white !important;
+    font-weight: 900;
+}
+
+.profile-photo {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 100%;
+    margin-left: 0.8rem;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.bell {
+    color: #E7E7E6;
+    margin-right: 50px;
+    font-weight: 900;
+}
+
+/*   navabar section end*/
+
+.all_parent {
+    display: flex;
+    justify-content: space-between;
+    height: 79vh;
+
+}
+
+body {
+    background-color: #0C1126;
+
+}
+
+.main {
+    width: 65%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    height: 90vh;
+    overflow-y: auto;
+    padding: 1rem 1.5rem 0rem;
+
+
+
+
+
+}
+
+/*   caroseul sections start*/
+
+#caro {
+    display: flex;
+    height: auto;
+    width: 100%;
+    margin-top: 2%;
+
+}
+
+.c1 {
+
+    height: 35vh;
+    width: 33%;
+
+
+
+}
+
+.c2 {
+    width: 34%;
+    height: 35vh;
+
+}
+
+.c3 {
+    width: 33%;
+    height: 35vh;
+
+}
+
+.c2 img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.c3 img {
+    width: 100%;
+    height: 100%;
+}
+
+.c1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.c1:hover {
+    transform: scaleX(1.2) scaleY(1.1);
+    cursor: pointer;
+}
+
+.c2:hover {
+    transform: scaleX(1.2) scaleY(1.1);
+    cursor: pointer;
+
+}
+
+.c3:hover {
+    transform: scaleX(1.2) scaleY(1.1);
+    cursor: pointer;
+
+}
+
+
+/* carosuel section end */
+.latest-realese {
+    display: flex;
+    height: auto;
+    width: 100%;
+    justify-content: space-between;
+
+    flex-wrap: wrap;
+
+}
+
+.latest-relese-para {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 2%;
+    color: white;
+
+
+
+}
+
+.latest-realese-image {
+    height: 13vh;
+    width: 15vh;
+    
+}
+
+.latest-realese-image img {
+    height: 100%;
+    width: 100%;
+}
+
+.latest {
+    display: flex;
+    width: 50%;
+    position: relative;
+    margin-top: 2%;
+}
+
+.pgroup {
+    justify-content: flex-start;
+    margin-left: 3%;
+    justify-content: center;
+    color: white;
+
+}
+
+.date {
+
+    position: absolute;
+    left: 85%;
+    color: gray;
+}
+
+.pgroup p {
+    margin-top: 20%;
+}
+
+.firstpara {
+    margin-top: 35%;
+}
+
+.secondpara {
+    margin-top: 60%;
+}
+
+/*popular artist sectionn start */
+.popular_artist_parent {
+    display: flex;
+    height: auto;
+    width: 100%;
+    justify-content: space-between;
+
+    flex-wrap: wrap;
+}
+
+.popular_artist_child {
+    width: 13%;
+    margin-top: 2%;
+
+}
+
+.single_child img {
+    width: 100%;
+    border-radius: 100%;
+
+}
+
+.single_para {
+    width: 100%;
+    margin-top: 8%;
+    color: gray;
+
+}
+
+.single_para p {
+
+    text-align: center;
+    margin-top: 2.7%;
+}
+
+/* popular artist section end */
+/*song type section start */
+.song_type_parent {
+
+    display: flex;
+    height: auto;
+    width: 100%;
+    margin-top: 4%;
+
+    flex-wrap: wrap;
+    background-color: #12183F;
+    justify-content: space-between;
+}
+
+.song_type_child {
+    width: 12%;
+    height: 6rem;
+    min-width: 11%;
+    border-radius: 100%;
+
+    margin-right: 2%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+
+
+}
+
+
+
+.a {
+    background: url(images/song_type/willow.jpeg);
+    background-size: cover;
+
+}
+
+.b {
+    background: url(images/song_type/Weeknd.jpg);
+    background-size: cover;
+}
+
+.c {
+    background: url(images/song_type/sorry.jpg);
+    background-size: cover;
+}
+
+.d {
+    background: url(images/song_type/shit.png);
+    background-size: cover;
+}
+
+.e {
+    background: url(images/song_type/havana.jpg);
+    background-size: cover;
+}
+
+.f {
+    background: url(images/song_type/DaBaby.jpg);
+    background-size: cover;
+
+
+
+}
+
+.z {
+    margin-left: 1% !important;
+    background: url(images/song_type/DaBaby.jpg);
+    background-size: cover;
+}
+
+/* song type section end */
+/* music mod section start */
+.music_mood_parent {
+
+    display: flex;
+    height: auto;
+    width: 100%;
+    justify-content: space-between;
+
+    flex-wrap: wrap;
+    margin-top: 2%;
+
+}
+
+.music_mood_child {
+    width: 32.5%;
+
+    background-size: 100% 100%;
+    height: 13rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 800;
+    font-size: 1rem;
+    overflow: hidden;
+
+
+
+}
+
+.mooda {
+    background-image: url(images/music_mood/party.jpg);
+
+}
+
+.moodb {
+    background-image: url(images/music_mood/electronic.jpg);
+}
+
+.moodc {
+    background-image: url(images/music_mood/road-trip.jpg);
+}
+
+.music_mood_child:hover {
+    background-size: 120% 120%;
+    background-position: center center;
+    cursor: pointer !important;
+}
+
+/* music mood section end*/
+/* latest english section start*/
+.latest_english_parent {
+    display: flex;
+    height: auto;
+    width: 100%;
+    justify-content: space-between;
+font-family: sans-serif;
+    flex-wrap: wrap;
+    margin-top: 2%;
+}
+
+.latest_hindi_parent {
+    margin-bottom: 10%;
+}
+
+.latest_english_child {
+    width: 15%;
+
+}
+
+.latest_english_child img {
+    width: 100%;
+    border-top-right-radius: 10%;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    margin-bottom: 1%;
+}
+
+.latest_english_child_para {
+    margin-top: 8%;
+    color: gray;
+    font-size: small;
+    margin-left: 1%;
+
+
+
+}
+
+.latest_english_1para {
+    color: white;
+    margin-left: 1%;
+    font-family: sans-serif;
+    font-size: medium;
+    margin-left: 1%;
+}
+
+
+
+.imagehover:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.single_child:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.song_type_child:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+
+
+
+.main::-webkit-scrollbar {
+    display: none;
+}
+
+.main {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+
+
+/*- second aside section start-*/
+
+.aside {
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+
+}
+
+.queue_container {
+    display: block;
+    width: 31%;
+    height: 79vh;
+    overflow-y: auto;
+
+    margin-right: 1%;
+    justify-content: space-between;
+
+}
+
+.queue_header {
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color: white;
+    padding-left: 2%;
+    font: 1.2rem sans-serif;
+}
+
+/* to remove scroll bar from aside section */
+.queue_container::-webkit-scrollbar {
+    display: none;
+}
+
+
+.para_queue {
+
+    margin-left: 1%;
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+
+
+.aside_parent {
+    display: flex;
+    width: 95%;
+    margin-top: 2%;
+    flex-direction: row;
+    background-color: #12183F;
+    height: 5rem;
+
+
+
+}
+
+.song_img {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.song_img img {
+    width: 100%;
+    height: 80%;
+    border-top-right-radius: 15%;
+    border-top-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+    border-bottom-left-radius: 15%;
+
+}
+
+.song_no {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    color: gray;
+}
+
+.song_name {
+    width: 55%;
+    margin-left: 4%;
+
+}
+
+.song_logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    color: white;
+}
+
+.sp1 {
+    font-size:medium;
+   
+    margin-top: 7%;
+    color: white;
+    font-family: sans-serif;
+}
+
+.sp2 {
+    margin-top: 5%;
+    color:gray;
+    font-size: small;
+    font-family: sans-serif;
+}
+
+.aside_parent:hover {
+    transform: scaleY(1.1);
+    cursor: pointer;
+}
+.fa-heart{
+    color: gray;
+}
+
+.fa-heart:hover {
+    transform: scale(1.3);
+    color:white;
+}
+
+/* footer section start */
+
+.footer_parent {
+
+    width: 100%;
+    height: 11vh;
+    display: flex;
+    flex-wrap: nowrap;
+    background-color:  rgb(8, 8, 26);;
+    justify-content: space-between;
+    position: relative;
+    bottom: 1% !important;
+    align-items: center;
+}
+
+.child1 {
+    width: 20%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2%;
+}
+
+.footer_image {
+    width: 30%;
+    height: 80%;
+}
+
+.footer_image img {
+    width: 100%;
+    height:
+        100%;
+}
+
+.child2 {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: center;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    margin-top: 1vh;
+}
+
+.child2_logo_1 {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.child2_logo_2 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    color: white;
+
+}
+
+.seaven {
+    width: 80%;
+
+}
+
+.input_type_1 {
+    width: 100%;
+
+}
+
+.fas {
+    color: white;
+}
+
+.child3 {
+    width: 20%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 2%;
+    margin-top: 1vh;
+
+}
+
+.peaches {
+    font-size: large;
+    font-family: sans-serif;
+    margin-bottom: 2%;
+    color: white;
+
+}
+
+.justin {
+    font-size: small;
+    font-family: sans-serif;
+    color: white;
+    margin-top: 10%;
+
+}
+
+.far {
+    color: white;
+}
+
+.fasss {
+    color: white;
+}
+
+.circle {
+    color: white;
+}
+
+.circle:hover {
+    transform: scale(1.2);
+    color: rgb(0, 255, 51);
+}
+
+.fasss:hover {
+    color: red;
+    transform: scale(1.2);
+}
+
+.footer_image:hover {
+    transform: scale(1.2);
+}
+
+/* footer section end */
+.ppp{
+    color: gray;
+    font-family: sans-serif;
+    font-size: small;
+}
